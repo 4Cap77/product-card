@@ -1,0 +1,129 @@
+*{
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+.conteiner {
+  position: relative;
+  display: inline-block;
+  width: 1280px;
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+.product-card__page-title {
+  position: absolute;
+  min-width: 846px;
+  height: 78px;
+  left: 217px;
+  top: 220px;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  color: #515076;
+}
+.product-card__img-fon {
+  width: 790px;
+  height: 697px;
+  top: 0;
+  left: 85px;
+  position: absolute;
+  background: url("/images/bg-dandelion.png");
+  
+}
+.product-cards_wrapper {
+  position: absolute;
+  width: 100%;
+  min-height: 1191px;
+  top: 408px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-card {
+  position: relative;
+  width: 340px;
+  max-height: 573px;
+  border: 2px;
+  margin-right:35px;
+  box-sizing: border-box;
+  padding:20px 30px;
+}
+.product-card__image {
+  display: block;
+  width: 290px;
+  height: 245px;
+  padding: 10px 0px;
+}
+.product-card__for-skin {
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+}
+.product-card__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #515076;
+  margin: 0;
+}
+.product-card__discription {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+.product-card__list {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.product-card__list__compound {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin:0;
+}
+.product-card__list__items {
+  margin: 0;
+  padding: 0 15px;
+}
+.product-card__list__items__first {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+.product-card__list__items__second {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+.product-card__list__items__third {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+.product-card__price {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  box-sizing: border-box;
+  
+}
+.product-card__content__price__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+}
+
+.product-card__content__price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #515076;
+}
